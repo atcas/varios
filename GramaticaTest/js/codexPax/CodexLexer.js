@@ -1,0 +1,243 @@
+// Generated from Codex.g4 by ANTLR 4.5.3
+// jshint ignore: start
+var antlr4 = require('antlr4/index');
+
+
+var serializedATN = ["\u0003\u0430\ud6d1\u8206\uad2d\u4417\uaef1\u8d80\uaadd",
+    "\u0002\u001c\u00bd\b\u0001\u0004\u0002\t\u0002\u0004\u0003\t\u0003\u0004",
+    "\u0004\t\u0004\u0004\u0005\t\u0005\u0004\u0006\t\u0006\u0004\u0007\t",
+    "\u0007\u0004\b\t\b\u0004\t\t\t\u0004\n\t\n\u0004\u000b\t\u000b\u0004",
+    "\f\t\f\u0004\r\t\r\u0004\u000e\t\u000e\u0004\u000f\t\u000f\u0004\u0010",
+    "\t\u0010\u0004\u0011\t\u0011\u0004\u0012\t\u0012\u0004\u0013\t\u0013",
+    "\u0004\u0014\t\u0014\u0004\u0015\t\u0015\u0004\u0016\t\u0016\u0004\u0017",
+    "\t\u0017\u0004\u0018\t\u0018\u0004\u0019\t\u0019\u0004\u001a\t\u001a",
+    "\u0004\u001b\t\u001b\u0004\u001c\t\u001c\u0003\u0002\u0003\u0002\u0003",
+    "\u0003\u0003\u0003\u0003\u0004\u0003\u0004\u0003\u0005\u0003\u0005\u0003",
+    "\u0006\u0003\u0006\u0003\u0007\u0003\u0007\u0003\b\u0003\b\u0003\t\u0003",
+    "\t\u0003\n\u0003\n\u0003\n\u0003\n\u0003\n\u0003\u000b\u0003\u000b\u0003",
+    "\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003\u000b\u0003",
+    "\f\u0003\f\u0003\f\u0003\f\u0003\r\u0003\r\u0003\r\u0003\r\u0003\r\u0003",
+    "\u000e\u0003\u000e\u0003\u000e\u0003\u000e\u0003\u000f\u0003\u000f\u0003",
+    "\u000f\u0003\u000f\u0003\u000f\u0003\u0010\u0003\u0010\u0003\u0010\u0003",
+    "\u0010\u0003\u0010\u0003\u0010\u0003\u0010\u0003\u0011\u0003\u0011\u0003",
+    "\u0011\u0003\u0011\u0003\u0012\u0003\u0012\u0003\u0012\u0003\u0012\u0003",
+    "\u0012\u0003\u0013\u0003\u0013\u0003\u0013\u0003\u0014\u0003\u0014\u0003",
+    "\u0014\u0003\u0014\u0003\u0014\u0003\u0014\u0003\u0015\u0003\u0015\u0003",
+    "\u0015\u0003\u0015\u0003\u0015\u0003\u0015\u0003\u0016\u0003\u0016\u0003",
+    "\u0016\u0003\u0016\u0003\u0016\u0003\u0017\u0003\u0017\u0003\u0017\u0003",
+    "\u0017\u0006\u0017\u0091\n\u0017\r\u0017\u000e\u0017\u0092\u0003\u0018",
+    "\u0006\u0018\u0096\n\u0018\r\u0018\u000e\u0018\u0097\u0003\u0019\u0006",
+    "\u0019\u009b\n\u0019\r\u0019\u000e\u0019\u009c\u0003\u0019\u0003\u0019",
+    "\u0003\u001a\u0003\u001a\u0003\u001a\u0003\u001a\u0007\u001a\u00a5\n",
+    "\u001a\f\u001a\u000e\u001a\u00a8\u000b\u001a\u0003\u001a\u0003\u001a",
+    "\u0003\u001a\u0003\u001a\u0003\u001b\u0003\u001b\u0003\u001b\u0003\u001b",
+    "\u0007\u001b\u00b2\n\u001b\f\u001b\u000e\u001b\u00b5\u000b\u001b\u0003",
+    "\u001b\u0003\u001b\u0003\u001b\u0003\u001b\u0003\u001b\u0003\u001c\u0003",
+    "\u001c\u0004\u00a6\u00b3\u0002\u001d\u0003\u0003\u0005\u0004\u0007\u0005",
+    "\t\u0006\u000b\u0007\r\b\u000f\t\u0011\n\u0013\u000b\u0015\f\u0017\r",
+    "\u0019\u000e\u001b\u000f\u001d\u0010\u001f\u0011!\u0012#\u0013%\u0014",
+    "\'\u0015)\u0016+\u0017-\u0018/\u00191\u001a3\u001b5\u001c7\u0002\u0003",
+    "\u0002\u0006\u0006\u00022;C\\c|~~\u0003\u00022;\u0005\u0002\u000b\f",
+    "\u000f\u000f\"\"\u0004\u0002C\\c|\u00c0\u0002\u0003\u0003\u0002\u0002",
+    "\u0002\u0002\u0005\u0003\u0002\u0002\u0002\u0002\u0007\u0003\u0002\u0002",
+    "\u0002\u0002\t\u0003\u0002\u0002\u0002\u0002\u000b\u0003\u0002\u0002",
+    "\u0002\u0002\r\u0003\u0002\u0002\u0002\u0002\u000f\u0003\u0002\u0002",
+    "\u0002\u0002\u0011\u0003\u0002\u0002\u0002\u0002\u0013\u0003\u0002\u0002",
+    "\u0002\u0002\u0015\u0003\u0002\u0002\u0002\u0002\u0017\u0003\u0002\u0002",
+    "\u0002\u0002\u0019\u0003\u0002\u0002\u0002\u0002\u001b\u0003\u0002\u0002",
+    "\u0002\u0002\u001d\u0003\u0002\u0002\u0002\u0002\u001f\u0003\u0002\u0002",
+    "\u0002\u0002!\u0003\u0002\u0002\u0002\u0002#\u0003\u0002\u0002\u0002",
+    "\u0002%\u0003\u0002\u0002\u0002\u0002\'\u0003\u0002\u0002\u0002\u0002",
+    ")\u0003\u0002\u0002\u0002\u0002+\u0003\u0002\u0002\u0002\u0002-\u0003",
+    "\u0002\u0002\u0002\u0002/\u0003\u0002\u0002\u0002\u00021\u0003\u0002",
+    "\u0002\u0002\u00023\u0003\u0002\u0002\u0002\u00025\u0003\u0002\u0002",
+    "\u0002\u00039\u0003\u0002\u0002\u0002\u0005;\u0003\u0002\u0002\u0002",
+    "\u0007=\u0003\u0002\u0002\u0002\t?\u0003\u0002\u0002\u0002\u000bA\u0003",
+    "\u0002\u0002\u0002\rC\u0003\u0002\u0002\u0002\u000fE\u0003\u0002\u0002",
+    "\u0002\u0011G\u0003\u0002\u0002\u0002\u0013I\u0003\u0002\u0002\u0002",
+    "\u0015N\u0003\u0002\u0002\u0002\u0017V\u0003\u0002\u0002\u0002\u0019",
+    "Z\u0003\u0002\u0002\u0002\u001b_\u0003\u0002\u0002\u0002\u001dc\u0003",
+    "\u0002\u0002\u0002\u001fh\u0003\u0002\u0002\u0002!o\u0003\u0002\u0002",
+    "\u0002#s\u0003\u0002\u0002\u0002%x\u0003\u0002\u0002\u0002\'{\u0003",
+    "\u0002\u0002\u0002)\u0081\u0003\u0002\u0002\u0002+\u0087\u0003\u0002",
+    "\u0002\u0002-\u008c\u0003\u0002\u0002\u0002/\u0095\u0003\u0002\u0002",
+    "\u00021\u009a\u0003\u0002\u0002\u00023\u00a0\u0003\u0002\u0002\u0002",
+    "5\u00ad\u0003\u0002\u0002\u00027\u00bb\u0003\u0002\u0002\u00029:\u0007",
+    "<\u0002\u0002:\u0004\u0003\u0002\u0002\u0002;<\u0007]\u0002\u0002<\u0006",
+    "\u0003\u0002\u0002\u0002=>\u0007.\u0002\u0002>\b\u0003\u0002\u0002\u0002",
+    "?@\u0007_\u0002\u0002@\n\u0003\u0002\u0002\u0002AB\u0007*\u0002\u0002",
+    "B\f\u0003\u0002\u0002\u0002CD\u0007v\u0002\u0002D\u000e\u0003\u0002",
+    "\u0002\u0002EF\u0007-\u0002\u0002F\u0010\u0003\u0002\u0002\u0002GH\u0007",
+    "+\u0002\u0002H\u0012\u0003\u0002\u0002\u0002IJ\u0007y\u0002\u0002JK",
+    "\u0007k\u0002\u0002KL\u0007v\u0002\u0002LM\u0007j\u0002\u0002M\u0014",
+    "\u0003\u0002\u0002\u0002NO\u0007d\u0002\u0002OP\u0007g\u0002\u0002P",
+    "Q\u0007v\u0002\u0002QR\u0007y\u0002\u0002RS\u0007g\u0002\u0002ST\u0007",
+    "g\u0002\u0002TU\u0007p\u0002\u0002U\u0016\u0003\u0002\u0002\u0002VW",
+    "\u0007h\u0002\u0002WX\u0007q\u0002\u0002XY\u0007t\u0002\u0002Y\u0018",
+    "\u0003\u0002\u0002\u0002Z[\u0007t\u0002\u0002[\\\u0007q\u0002\u0002",
+    "\\]\u0007n\u0002\u0002]^\u0007n\u0002\u0002^\u001a\u0003\u0002\u0002",
+    "\u0002_`\u0007r\u0002\u0002`a\u0007c\u0002\u0002ab\u0007{\u0002\u0002",
+    "b\u001c\u0003\u0002\u0002\u0002cd\u0007v\u0002\u0002de\u0007c\u0002",
+    "\u0002ef\u0007m\u0002\u0002fg\u0007g\u0002\u0002g\u001e\u0003\u0002",
+    "\u0002\u0002hi\u0007u\u0002\u0002ij\u0007y\u0002\u0002jk\u0007k\u0002",
+    "\u0002kl\u0007v\u0002\u0002lm\u0007e\u0002\u0002mn\u0007j\u0002\u0002",
+    "n \u0003\u0002\u0002\u0002op\u0007o\u0002\u0002pq\u0007u\u0002\u0002",
+    "qr\u0007i\u0002\u0002r\"\u0003\u0002\u0002\u0002st\u0007g\u0002\u0002",
+    "tu\u0007z\u0002\u0002uv\u0007k\u0002\u0002vw\u0007v\u0002\u0002w$\u0003",
+    "\u0002\u0002\u0002xy\u0007q\u0002\u0002yz\u0007p\u0002\u0002z&\u0003",
+    "\u0002\u0002\u0002{|\u0007g\u0002\u0002|}\u0007x\u0002\u0002}~\u0007",
+    "g\u0002\u0002~\u007f\u0007t\u0002\u0002\u007f\u0080\u0007{\u0002\u0002",
+    "\u0080(\u0003\u0002\u0002\u0002\u0081\u0082\u0007u\u0002\u0002\u0082",
+    "\u0083\u0007v\u0002\u0002\u0083\u0084\u0007c\u0002\u0002\u0084\u0085",
+    "\u0007t\u0002\u0002\u0085\u0086\u0007v\u0002\u0002\u0086*\u0003\u0002",
+    "\u0002\u0002\u0087\u0088\u0007u\u0002\u0002\u0088\u0089\u0007v\u0002",
+    "\u0002\u0089\u008a\u0007q\u0002\u0002\u008a\u008b\u0007r\u0002\u0002",
+    "\u008b,\u0003\u0002\u0002\u0002\u008c\u008d\u00072\u0002\u0002\u008d",
+    "\u008e\u0007z\u0002\u0002\u008e\u0090\u0003\u0002\u0002\u0002\u008f",
+    "\u0091\t\u0002\u0002\u0002\u0090\u008f\u0003\u0002\u0002\u0002\u0091",
+    "\u0092\u0003\u0002\u0002\u0002\u0092\u0090\u0003\u0002\u0002\u0002\u0092",
+    "\u0093\u0003\u0002\u0002\u0002\u0093.\u0003\u0002\u0002\u0002\u0094",
+    "\u0096\t\u0003\u0002\u0002\u0095\u0094\u0003\u0002\u0002\u0002\u0096",
+    "\u0097\u0003\u0002\u0002\u0002\u0097\u0095\u0003\u0002\u0002\u0002\u0097",
+    "\u0098\u0003\u0002\u0002\u0002\u00980\u0003\u0002\u0002\u0002\u0099",
+    "\u009b\t\u0004\u0002\u0002\u009a\u0099\u0003\u0002\u0002\u0002\u009b",
+    "\u009c\u0003\u0002\u0002\u0002\u009c\u009a\u0003\u0002\u0002\u0002\u009c",
+    "\u009d\u0003\u0002\u0002\u0002\u009d\u009e\u0003\u0002\u0002\u0002\u009e",
+    "\u009f\b\u0019\u0002\u0002\u009f2\u0003\u0002\u0002\u0002\u00a0\u00a1",
+    "\u00071\u0002\u0002\u00a1\u00a2\u00071\u0002\u0002\u00a2\u00a6\u0003",
+    "\u0002\u0002\u0002\u00a3\u00a5\u000b\u0002\u0002\u0002\u00a4\u00a3\u0003",
+    "\u0002\u0002\u0002\u00a5\u00a8\u0003\u0002\u0002\u0002\u00a6\u00a7\u0003",
+    "\u0002\u0002\u0002\u00a6\u00a4\u0003\u0002\u0002\u0002\u00a7\u00a9\u0003",
+    "\u0002\u0002\u0002\u00a8\u00a6\u0003\u0002\u0002\u0002\u00a9\u00aa\u0007",
+    "\f\u0002\u0002\u00aa\u00ab\u0003\u0002\u0002\u0002\u00ab\u00ac\b\u001a",
+    "\u0003\u0002\u00ac4\u0003\u0002\u0002\u0002\u00ad\u00ae\u00071\u0002",
+    "\u0002\u00ae\u00af\u0007,\u0002\u0002\u00af\u00b3\u0003\u0002\u0002",
+    "\u0002\u00b0\u00b2\u000b\u0002\u0002\u0002\u00b1\u00b0\u0003\u0002\u0002",
+    "\u0002\u00b2\u00b5\u0003\u0002\u0002\u0002\u00b3\u00b4\u0003\u0002\u0002",
+    "\u0002\u00b3\u00b1\u0003\u0002\u0002\u0002\u00b4\u00b6\u0003\u0002\u0002",
+    "\u0002\u00b5\u00b3\u0003\u0002\u0002\u0002\u00b6\u00b7\u0007,\u0002",
+    "\u0002\u00b7\u00b8\u00071\u0002\u0002\u00b8\u00b9\u0003\u0002\u0002",
+    "\u0002\u00b9\u00ba\b\u001b\u0004\u0002\u00ba6\u0003\u0002\u0002\u0002",
+    "\u00bb\u00bc\t\u0005\u0002\u0002\u00bc8\u0003\u0002\u0002\u0002\b\u0002",
+    "\u0092\u0097\u009c\u00a6\u00b3\u0005\u0003\u0019\u0002\u0003\u001a\u0003",
+    "\u0003\u001b\u0004"].join("");
+
+
+var atn = new antlr4.atn.ATNDeserializer().deserialize(serializedATN);
+
+var decisionsToDFA = atn.decisionToState.map( function(ds, index) { return new antlr4.dfa.DFA(ds, index); });
+
+function CodexLexer(input) {
+	antlr4.Lexer.call(this, input);
+    this._interp = new antlr4.atn.LexerATNSimulator(this, atn, decisionsToDFA, new antlr4.PredictionContextCache());
+    return this;
+}
+
+CodexLexer.prototype = Object.create(antlr4.Lexer.prototype);
+CodexLexer.prototype.constructor = CodexLexer;
+
+CodexLexer.EOF = antlr4.Token.EOF;
+CodexLexer.T__0 = 1;
+CodexLexer.T__1 = 2;
+CodexLexer.T__2 = 3;
+CodexLexer.T__3 = 4;
+CodexLexer.T__4 = 5;
+CodexLexer.T__5 = 6;
+CodexLexer.T__6 = 7;
+CodexLexer.T__7 = 8;
+CodexLexer.WithMember = 9;
+CodexLexer.BetweenMember = 10;
+CodexLexer.ForMember = 11;
+CodexLexer.RollMember = 12;
+CodexLexer.Pay = 13;
+CodexLexer.Take = 14;
+CodexLexer.Switch = 15;
+CodexLexer.Msg = 16;
+CodexLexer.Exit = 17;
+CodexLexer.On = 18;
+CodexLexer.Every = 19;
+CodexLexer.Start = 20;
+CodexLexer.Stop = 21;
+CodexLexer.HEXA = 22;
+CodexLexer.INT = 23;
+CodexLexer.WS = 24;
+CodexLexer.SL_COMMENT = 25;
+CodexLexer.MultiLineComment = 26;
+
+
+CodexLexer.modeNames = [ "DEFAULT_MODE" ];
+
+CodexLexer.literalNames = [ null, "':'", "'['", "','", "']'", "'('", "'t'", 
+                            "'+'", "')'", "'with'", "'between'", "'for'", 
+                            "'roll'", "'pay'", "'take'", "'switch'", "'msg'", 
+                            "'exit'", "'on'", "'every'", "'start'", "'stop'" ];
+
+CodexLexer.symbolicNames = [ null, null, null, null, null, null, null, null, 
+                             null, "WithMember", "BetweenMember", "ForMember", 
+                             "RollMember", "Pay", "Take", "Switch", "Msg", 
+                             "Exit", "On", "Every", "Start", "Stop", "HEXA", 
+                             "INT", "WS", "SL_COMMENT", "MultiLineComment" ];
+
+CodexLexer.ruleNames = [ "T__0", "T__1", "T__2", "T__3", "T__4", "T__5", 
+                         "T__6", "T__7", "WithMember", "BetweenMember", 
+                         "ForMember", "RollMember", "Pay", "Take", "Switch", 
+                         "Msg", "Exit", "On", "Every", "Start", "Stop", 
+                         "HEXA", "INT", "WS", "SL_COMMENT", "MultiLineComment", 
+                         "LETTER" ];
+
+CodexLexer.grammarFileName = "Codex.g4";
+
+
+    public static final int WHITESPACE = 1;
+    public static final int COMMENTS = 2;
+
+
+CodexLexer.prototype.action = function(localctx, ruleIndex, actionIndex) {
+	switch (ruleIndex) {
+	case 23:
+		this.WS_action(localctx, actionIndex);
+		break;
+	case 24:
+		this.SL_COMMENT_action(localctx, actionIndex);
+		break;
+	case 25:
+		this.MultiLineComment_action(localctx, actionIndex);
+		break;
+	default:
+		throw "No registered action for:" + ruleIndex;
+	}
+};
+
+CodexLexer.prototype.WS_action = function(localctx , actionIndex) {
+	switch (actionIndex) {
+	case 0:
+		this._channel = WHITESPACE
+		break;
+	default:
+		throw "No registered action for:" + actionIndex;
+	}
+};
+
+CodexLexer.prototype.SL_COMMENT_action = function(localctx , actionIndex) {
+	switch (actionIndex) {
+	case 1:
+		this._channel = COMMENTS
+		break;
+	default:
+		throw "No registered action for:" + actionIndex;
+	}
+};
+
+CodexLexer.prototype.MultiLineComment_action = function(localctx , actionIndex) {
+	switch (actionIndex) {
+	case 2:
+		this._channel = COMMENTS
+		break;
+	default:
+		throw "No registered action for:" + actionIndex;
+	}
+};
+
+
+exports.CodexLexer = CodexLexer;
+

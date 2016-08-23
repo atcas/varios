@@ -1,0 +1,8 @@
+var ds="ew";
+var d=3;
+if(
+d==5
+)
+{
+	return 5;
+}

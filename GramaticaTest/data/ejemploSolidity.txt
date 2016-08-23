@@ -1,0 +1,18 @@
+contract hola { bool i; }
+contract hola2 { 
+	bool i;
+	
+	enum ActionChoices { GoLeft, GoRight, GoStraight, SitStill }
+	
+	mapping  (uint=> mapping  (uint=>bool)) dds;
+    modifier onlySeller (uint d,uint d4) {
+       -
+    }
+    
+    struct dd{
+    	uint dd;
+    }
+    
+	function nama(uint d,uint d4) returns (int42432,bool,uint){	
+	}
+}
